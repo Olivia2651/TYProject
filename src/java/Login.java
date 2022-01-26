@@ -20,7 +20,7 @@ protected void doPost(HttpServletRequest request,HttpServletResponse response) t
         p.setString(1,email);
         p.setString(2,pass);
         p.executeUpdate();
-       out.println("<a href=homepage.html></a>");
+       out.println("succesfull");
     }
    catch(Exception ex){}
 } 
