@@ -1,0 +1,52 @@
+body { 
+    font-family : Garamond, serif; 
+ 
+}
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color:#6699CC;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: 25px;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 50%;
+  text-decoration:none;
+}
+.container {
+  padding: 16px;
+}
+button:hover {
+  opacity: 0.8;
+}
+.box{
+  background-color: #add8e6;
+  width: 300px;
+  border: 5px solid white;
+  padding: 50px;
+  margin: 20px;
+  font-size: 15px;
+  float: right;
+ }
+ .box1{
+     float: left;
+     margin: 325px 60px 0px 10px;
+     font-family:Flanella;
+     font-size: 70;
+     color: black;
+ }
+ .p{
+     font-family: Garamond, serif ; 
+     font-size: 15px;
+     
+ }

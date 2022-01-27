@@ -1,0 +1,59 @@
+<html>
+    
+    <style>
+        body{
+            background-image: url("image/bg13.png");
+             }
+    </style>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="signupstyle.css">
+<body>
+    <form action="signup.jsp">
+        <center>
+     <div class="container">
+          
+         <div class="box">
+         
+       <h1> Sign up</h1>
+       <br>
+       
+           Name <input type="text" placeholder="Enter your name" name="name" required><br>
+           <br>
+           Phone number<input type="tel" placeholder="10 digit mobile number" name="phoneno" pattern="[7-9]{1}[0-9]{9}"  required><br>
+           <br>
+           Email<input type="email" placeholder="Enter Email" name="email" required><br>
+           <br>
+           Password<input type="password"  placeholder="Only 8 to 12 characters" name="psw" pattern="{8,12}" required><br>
+           <br>
+           Age<input type="number" name="age" placeholder="Enter Age"  required><br>
+           <br>
+           Profession
+           <select property="profession" name="pro">
+           <option value="0">Select your profession</option>
+           <option value="Student">Student</option>
+           <option value="Home maker">Home maker</option>
+           <option value="Employee">Employee</option>
+           <option value="Self employeed">Self employed</option>
+           <option value="Retried">Retired</option>
+           <option value="Business owner">Business owner</option>
+           <option value="Shop vendor">Shop vendor</option>
+           <option value="Other">other</option>
+           </select>
+           <br>
+           <br>
+           <button type="submit">Sign in</button>
+           <br>
+           <br>
+          Already a member? <a href='index.html'> Login </a>
+          
+       
+    </div>     
+     </div>
+            </center>
+   </form>
+
+</body>
+</html>
+ 
+
