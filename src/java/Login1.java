@@ -25,12 +25,15 @@ protected void doPost(HttpServletRequest request,HttpServletResponse response) t
             RequestDispatcher rd=request.getRequestDispatcher("homepage.html");
             rd.forward(request,response);
 }
+
 else
 {
     out.println("<font color='red'><center><b>You have entered the wrong password</center></b></font>");
         RequestDispatcher rd=request.getRequestDispatcher("index.html");
         rd.include(request, response);    }
-    }  catch(Exception ex){}
+   
+    }  
+    catch(Exception ex){}
 }
 }
 
